@@ -196,22 +196,50 @@ body {
 }
 
 
+.contents {
+  padding: 10px 40px;
+}
+
+
 
 .footer-box {
   background-color: #ffcc00;
   color: #666;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 56px;
   width: 100%;
 }
 .footer-top {
   display: flex;
-  font-size: 0.8em;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
 }
-.footer-top img {
-  height: 20px;
+.footer-top p {
+  font-size: 0.9em;
 }
-.footer-bottom {
+.under-logo {
+  display: flex;
+}
+.under-sun {
+  height: 25px;
+}
+.under-sun img {
+  height: 25px;
+}
+.under-name {
+  height: 25px;
+  margin-left: 5px;
+}
+.under-name img {
+  height: 15px;
+  padding: 5px 0
+
+}
+.footer-bottom p {
+  font-size: 0.8px;
   text-align: center;
 }
