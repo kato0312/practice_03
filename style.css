@@ -1,0 +1,217 @@
+* {
+  font-family: "Yu Gothic Medium","游ゴシック Medium,", "游ゴシック体", "YuGothic","ヒラギノ丸ゴ Pro W4","Hiragino Sans", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "sans-serif";
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffffcc;
+}
+.all {
+  margin: 0 auto;
+  max-width: 754px;
+}
+
+
+.header-box {
+  background-color: #ffcc00;
+  height: 100%;
+  padding: 10px 0;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.company {
+  font-size: 1em;
+}
+.about-site {
+  margin-top: 10px;
+}
+.about-site p {
+  color: #02b602;
+  font-size: 0.7rem;
+  line-height: 1rem;;
+  text-align: center
+}
+
+
+.nav-top {
+  background-color: #8dcfcf;
+  color: #fff;
+  padding: 10px;
+}
+.nav-top ul {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-top li {
+  background-image: url(img/bullet235.gif);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 0.8em;
+  font-size: 0.8em;
+  list-style: none;
+  padding: 0.2em 0.3em 0 0.9em;
+}
+.nav-box {
+  background-image: url(img/nav-top-icon.png);
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 130px;
+}
+.nav-box:hover {
+  background-image: url(img/nav-top-icon_2.png);
+  background-repeat: no-repeat;
+}
+
+
+
+.main-box {
+  background-color: #fff;
+  display: flex;
+  height: 1000px
+}
+.sidebar {
+  background-color: #8dcfcf;
+  flex: 1;
+}
+.contents {
+  flex: 3.3;
+}
+
+
+
+.sidebar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 31px;
+}
+.sb-menu {
+  margin-bottom: 10px;
+  width: 130px;
+}
+.sb-menu a {
+  background-repeat: no-repeat;
+  display: block;
+  height: 35px;
+  width: 130px;
+}
+.sb-menu li {
+  list-style: none;
+  margin-bottom: -5px;
+}
+.sb-top {
+  background-image: url(img/nav-top-icon.png);
+}
+.sb-top:hover {
+  background-image: url(img/nav-top-icon_2.png);
+}
+.sb-gaiyo {
+  background-image: url(img/nav-gaiyo-icon.png);
+}
+.sb-gaiyo:hover {
+  background-image: url(img/nav-gaiyo-icon_2.png);
+}
+.sb-about {
+  background-image: url(img/nav-about-icon.png);
+}
+.sb-about:hover {
+  background-image: url(img/nav-about-icon_2.png);
+}
+.sb-schedule {
+  background-image: url(img/nav-schedule-icon.png);
+}
+.sb-schedule:hover {
+  background-image: url(img/nav-schedule-icon_2.png);
+}
+.sb-lunch {
+  background-image: url(img/nav-lunch-icon.png);
+}
+.sb-lunch:hover {
+  background-image: url(img/nav-lunch-icon_2.png);
+}
+.sb-efforts {
+  background-image: url(img/nav-efforts-icon.png);
+}
+.sb-efforts:hover {
+  background-image: url(img/nav-efforts-icon_2.png);
+}
+.sb-blog {
+  background-image: url(img/nav-blog-icon.png);
+}
+.sb-blog:hover {
+  background-image: url(img/nav-blog-icon_2.png);
+}
+.sb-access {
+  background-image: url(img/nav-access-icon.png);
+}
+.sb-access:hover {
+  background-image: url(img/nav-access-icon_2.png);
+}
+
+.access-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2em;
+}
+.access-box img {
+  max-width: 130px;
+  margin: 15px 0;
+}
+.sidebar p {
+  color: #fff;
+  font-size: 0.8em;
+  text-align: center;
+}
+.side-tel {
+  background-image: url(img/bullet270.gif);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 1.3em;
+  padding-left: 2.3em;
+}
+.side-tel p {
+  color: red;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.warning {
+  font-size: 0.7em;
+}
+.sidebar a {
+  color: #009999;
+  font-size: 1em;
+  text-align: center;
+}
+
+
+
+.footer-box {
+  background-color: #ffcc00;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  height: 56px;
+  width: 100%;
+}
+.footer-top {
+  display: flex;
+  font-size: 0.8em;
+}
+.footer-top img {
+  height: 20px;
+}
+.footer-bottom {
+  text-align: center;
+}
